@@ -38,9 +38,13 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 full adder
+
+
 ![Screenshot 2024-12-05 170301](https://github.com/user-attachments/assets/cc8ed30c-eaaa-4cf6-85e8-7f307df09ccf)
 
 full subtractor
+
+
 ![Screenshot 2024-12-05 170315](https://github.com/user-attachments/assets/4f017a46-ee7c-4713-bae1-2f180d90bc04)
 
 
@@ -93,8 +97,12 @@ RegisterNumber:24901119
 
 **RTL Schematic**
 
+
+
 full adder
 ![Screenshot 2024-12-05 163832](https://github.com/user-attachments/assets/ac6d9903-4b33-4dfc-9b9e-59f2a4b3f1e4)
+
+
 
 full subtractor
 ![Screenshot 2024-12-05 165149](https://github.com/user-attachments/assets/1b937702-e0e7-4468-a3a1-7e7e74bb0cfd)
@@ -102,8 +110,12 @@ full subtractor
 
 
 **Output Timing Waveform**
+
+
 full adder
 ![Screenshot 2024-12-05 164140](https://github.com/user-attachments/assets/0dbc3b3f-9b09-447c-a7d4-7d9724afaa09)
+
+
 
 full subtrator
 ![Screenshot 2024-12-05 165342](https://github.com/user-attachments/assets/f2938e37-5a01-4601-8641-4f0dcba4090d)
