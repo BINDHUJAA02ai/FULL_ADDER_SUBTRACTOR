@@ -1,4 +1,9 @@
-# FULL_ADDER_SUBTRACTOR
+Nsme:Bindhujaa.S
+
+Register No: 249011119
+
+
+**Experiment4: FULL_ADDER_SUBTRACTOR**
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
@@ -37,6 +42,7 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+
 full adder
 
 
@@ -50,61 +56,43 @@ full subtractor
 
 **Procedure**
 
-Write the detailed procedure here
+
+1.Type the program in Quartus software.
+
+2.Compile and run the program.
+
+3.Generate the RTL schematic and save the logic diagram.
+
+4.Create nodes for inputs and outputs to generate the timing diagram.
+
+5.For different input combinations generate the timing diagram
 
 **Program:**
-```
-Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+
 full adder
-module experiment4(sum,cout,a,b,cin);
-output sum;
-output cout;
-input a;
-input b;
-input cin;
 
-//internal nets
-wire s1,c1,c2;
+![Screenshot 2024-12-19 112133](https://github.com/user-attachments/assets/b935176b-63e0-4d83-bbe5-7f465be50dda)
 
-//Instantiate logic gate primitives
-xor (s1,a,b);
-and(c1,a,b);
-xor(sum,s1,cin);
-and(c2,s1,cin);
-or(cout,c2,c1);
-endmodule
 
 
 full subtractor
-module experiment4a (df,bo,a,b,bin);
-output df;
-output bo;
-input a;
-input b;
-input bin;
-wire w1,w2,w3;
-assign w1=a^b;
-assign w2=(~a&b);
-assign w3=(-w1&bin);
-assign df=w1^bin;
-assign bo=w2|w3;
-endmodule
-```
-```
-Developed by:Bindhujaa.S
-RegisterNumber:24901119
-```
+
+![Screenshot 2024-12-19 112332](https://github.com/user-attachments/assets/ccb7f2d9-3c08-4640-8f5c-9700422c96a6)
+
+
 
 **RTL Schematic**
 
 
 
 full adder
+
 ![Screenshot 2024-12-05 163832](https://github.com/user-attachments/assets/ac6d9903-4b33-4dfc-9b9e-59f2a4b3f1e4)
 
 
 
 full subtractor
+
 ![Screenshot 2024-12-05 165149](https://github.com/user-attachments/assets/1b937702-e0e7-4468-a3a1-7e7e74bb0cfd)
 
 
@@ -113,13 +101,15 @@ full subtractor
 
 
 full adder
-![Screenshot 2024-12-05 164140](https://github.com/user-attachments/assets/0dbc3b3f-9b09-447c-a7d4-7d9724afaa09)
+
+![Screenshot 2024-12-19 203359](https://github.com/user-attachments/assets/1943bf48-585a-4787-b3d9-4ce72d0bae43)
+
 
 
 
 full subtrator
-![Screenshot 2024-12-05 165342](https://github.com/user-attachments/assets/f2938e37-5a01-4601-8641-4f0dcba4090d)
 
+![Screenshot 2024-12-19 203432](https://github.com/user-attachments/assets/fbd33ceb-cb5b-4057-82c9-378d88257ad2)
 
 
 **Result:**
