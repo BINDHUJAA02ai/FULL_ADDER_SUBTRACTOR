@@ -1,4 +1,4 @@
-Nsme:Bindhujaa.S
+Name:Bindhujaa.S
 
 Register No: 249011119
 
