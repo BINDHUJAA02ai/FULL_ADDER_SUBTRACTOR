@@ -3,7 +3,7 @@ Name:Bindhujaa.S
 Register No: 249011119
 
 
-**Experiment4: FULL_ADDER_SUBTRACTOR**
+**Experiment4:IMPLEMENTATION OF  FULL_ADDER_SUBTRACTOR**
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
