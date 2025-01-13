@@ -43,73 +43,55 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
-full adder
+![2](https://github.com/user-attachments/assets/8b4df042-7374-4cb1-9cea-e61d7512fdf9)
 
+![3](https://github.com/user-attachments/assets/ead961b8-a35b-474f-9698-f00edb6c203e)
 
-![Screenshot 2024-12-05 170301](https://github.com/user-attachments/assets/cc8ed30c-eaaa-4cf6-85e8-7f307df09ccf)
-
-full subtractor
-
-
-![Screenshot 2024-12-05 170315](https://github.com/user-attachments/assets/4f017a46-ee7c-4713-bae1-2f180d90bc04)
 
 
 **Procedure**
 
+FULL ADDER:
+1. Open Quartus II and create a new project.
+2. Use schematic design entry to draw the full adder circuit.
+3. The circuit consists of XOR, AND, and OR gates.
+4. Compile the design, and verify its functionality through simulation.
+5. Implement the design on the target device and program it.
 
-1.Type the program in Quartus software.
+FULL SUBTRACTOR:
+1. Follow the same steps as for the full adder.
+2. Draw the full subtractor circuit using schematic design.
+3. The circuit includes XOR, AND, OR gates to perform subtraction.
+4. Compile, simulate, implement, and program the design similarly to the full adder.
 
-2.Compile and run the program.
 
-3.Generate the RTL schematic and save the logic diagram.
-
-4.Create nodes for inputs and outputs to generate the timing diagram.
-
-5.For different input combinations generate the timing diagram
 
 **Program:**
 
-full adder
+![4](https://github.com/user-attachments/assets/698b2a69-7866-4c01-8859-29f1287e22c6)
 
-![Screenshot 2024-12-19 112133](https://github.com/user-attachments/assets/b935176b-63e0-4d83-bbe5-7f465be50dda)
+![5](https://github.com/user-attachments/assets/a56449a0-373d-42cd-8ba8-7ba93334d2a4)
 
-
-
-full subtractor
-
-![Screenshot 2024-12-19 112332](https://github.com/user-attachments/assets/ccb7f2d9-3c08-4640-8f5c-9700422c96a6)
 
 
 
 **RTL Schematic**
 
+![6](https://github.com/user-attachments/assets/1aea4f65-9b54-4bf3-99d9-440869770156)
 
-
-full adder
-
-![Screenshot 2024-12-05 163832](https://github.com/user-attachments/assets/ac6d9903-4b33-4dfc-9b9e-59f2a4b3f1e4)
+![7](https://github.com/user-attachments/assets/fb63e995-6c14-4869-bdd4-cd8e0fea7754)
 
 
 
-full subtractor
-
-![Screenshot 2024-12-05 165149](https://github.com/user-attachments/assets/1b937702-e0e7-4468-a3a1-7e7e74bb0cfd)
 
 
 
 **Output Timing Waveform**
 
+![image](https://github.com/user-attachments/assets/d194e35a-2f04-4c72-97f0-fd07fb81ffd9)
 
-full adder
+![1000062789](https://github.com/user-attachments/assets/23e490f6-323a-4f4a-8c1e-3bff0b0aae05)
 
-![Screenshot 2024-12-19 203359](https://github.com/user-attachments/assets/1943bf48-585a-4787-b3d9-4ce72d0bae43)
-
-
-
-
-full subtrator
-
-![Screenshot 2024-12-19 203432](https://github.com/user-attachments/assets/fbd33ceb-cb5b-4057-82c9-378d88257ad2)
 
 
 **Result:**
