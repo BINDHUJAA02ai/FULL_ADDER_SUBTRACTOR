@@ -5,7 +5,7 @@ Register No: 249011119
 
 **Experiment4:IMPLEMENTATION OF  FULL_ADDER_SUBTRACTOR**
 
-Implementation-of-Full-Adder-and-Full-subtractor-circuit
+Implementation of Full Adder and Full subtractor circuit
 
 **AIM:**
 
